@@ -1,0 +1,24 @@
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    background-color: burlywood;
+}
+
+.logo {
+    color: blue;
+}
+@media only screen and (max-width: 450px){
+    .logo{
+        display: none;
+    }
+}
+
+.navigations{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigations p{
+    margin-right: 20px;
+}
